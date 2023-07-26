@@ -1,0 +1,15 @@
+.list {
+  background-color: burlywood;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}

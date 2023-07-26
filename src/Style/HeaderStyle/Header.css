@@ -1,0 +1,6 @@
+.header {
+  background-color: brown;
+  height: 200px;
+  margin: 30px;
+  display: flex;
+}
