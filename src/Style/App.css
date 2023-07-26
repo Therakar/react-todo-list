@@ -1,5 +1,8 @@
 .app {
-  background-color: blueviolet;
+  background: url(../../public/background-todo-list.png);
+  background-repeat: repeat;
+  background-size: contain;
+
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -8,5 +11,4 @@
 .container {
   width: 50vw;
   height: 100%;
-  background-color: aquamarine;
 }
