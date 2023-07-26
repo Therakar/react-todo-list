@@ -1,5 +1,18 @@
-.form-container {
-  background-color: bisque;
+.add-form {
   height: 40px;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  background-color: #ffebb3;
+  color: black;
+  font-family: inherit;
+  border: none;
+  border-radius: 10rem;
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
 }

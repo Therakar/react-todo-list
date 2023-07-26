@@ -1,8 +1,16 @@
 .header {
-  background-color: brown;
   height: 20%;
-  padding: 30px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 70px;
+  text-align: center;
+  color: black;
 }

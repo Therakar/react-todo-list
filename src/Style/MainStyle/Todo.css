@@ -2,9 +2,15 @@
   width: calc((100% / 2) - 40px);
   background-color: white;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+
   justify-content: space-between;
   text-align: center;
   border: 1px solid black;
   margin: 20px;
+  padding: 15px 0px 0px;
+}
+
+.todo-buttons {
+  margin-top: 10px;
 }

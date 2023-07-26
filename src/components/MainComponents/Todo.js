@@ -1,4 +1,5 @@
 import "../../Style/MainStyle/Todo.css";
+import "../../Style/Button.css";
 
 export default function Todo() {
   return (
@@ -7,8 +8,8 @@ export default function Todo() {
         <p>Todo Item</p>
       </div>
       <div className="todo-buttons">
-        <button>✅</button>
-        <button>❌</button>
+        <button className="green">Done</button>
+        <button className="red">Cancel</button>
       </div>
     </li>
   );

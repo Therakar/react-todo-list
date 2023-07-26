@@ -9,6 +9,10 @@
 }
 
 .container {
+  background: url(../../public/paper-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 50vw;
   height: 100%;
+  border-radius: 10px;
 }

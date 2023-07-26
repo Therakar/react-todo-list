@@ -1,0 +1,73 @@
+.todo-buttons button {
+  text-transform: uppercase;
+  padding: 3px 22px;
+  font-size: 10px;
+  font-weight: 700;
+  margin: 12px;
+}
+
+.add-form button {
+  text-transform: uppercase;
+  padding: 6px px;
+  background-color: #ffebb3;
+  margin: 0 12px;
+}
+.red {
+  background-color: #e73d54;
+}
+.green {
+  background-color: #3de798;
+}
+/* CSS */
+button {
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+  color: #000000;
+
+  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: 0.75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+button:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 0.75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
