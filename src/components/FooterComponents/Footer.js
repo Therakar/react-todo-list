@@ -5,7 +5,9 @@ export default function Footer() {
   return (
     <div className="footer">
       <SortingForm />
-      <p>Placeholder Placeholder Placeholder Placeholder Placeholder</p>
+      <p className="bottom-text">
+        Placeholder Placeholder Placeholder Placeholder Placeholder
+      </p>
     </div>
   );
 }
