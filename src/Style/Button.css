@@ -3,7 +3,7 @@
   padding: 3px 22px;
   font-size: 10px;
   font-weight: 700;
-  margin: 12px;
+  margin: 12px 12px 0px 12px;
 }
 
 .add-form button {
@@ -29,13 +29,13 @@ button {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 700;
+
   justify-content: center;
   line-height: 1.75rem;
   padding: 0.75rem 1.65rem;
   position: relative;
   text-align: center;
   text-decoration: none #000000 solid;
-  text-decoration-thickness: auto;
 
   max-width: 460px;
   position: relative;

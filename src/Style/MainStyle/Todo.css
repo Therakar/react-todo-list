@@ -1,16 +1,30 @@
 .todo-item {
+  /* Sizing */
   width: calc((100% / 2) - 40px);
-  background-color: white;
+  margin: 15px;
+  padding: 30px 15px 15px 15px;
+
+  /* Content */
   display: flex;
   flex-direction: column;
-
   justify-content: space-between;
   text-align: center;
-  border: 1px solid black;
-  margin: 20px;
-  padding: 15px 0px 0px;
+
+  /* Background */
+  background: url(../../../public/todo-item-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
 }
 
 .todo-buttons {
   margin-top: 10px;
+}
+
+.todo-text {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  color: rgb(0, 0, 95);
+  font-size: 25px;
 }
