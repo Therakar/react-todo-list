@@ -1,2 +1,13 @@
 :root {
+  --add-form-bg-color: #ffebb3;
+  --select-bg-color: #a3d6ee;
+  --done-btn-bg-color: #3de798;
+  --cancel-btn-bg-color: #e73d54;
+  --clear-btn-bg-color: #3ab3eb;
+  --title-color: black;
+  --main-text-color: rgb(0, 0, 95);
+}
+
+.shadow {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
 }

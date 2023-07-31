@@ -4,11 +4,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: var(--main-text-color);
 }
 
 input {
-  background-color: #ffebb3;
-  color: black;
+  background-color: var(--add-form-bg-color);
+  color: inherit;
   font-family: inherit;
   border: none;
   border-radius: 10rem;

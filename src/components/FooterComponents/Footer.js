@@ -5,9 +5,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <SortingForm />
-      <p className="bottom-text">
-        Placeholder Placeholder Placeholder Placeholder Placeholder
-      </p>
+      <p className="bottom-text">Made with ❤ by Matteo Pau</p>
     </div>
   );
 }

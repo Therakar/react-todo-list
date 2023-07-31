@@ -25,6 +25,6 @@
 .todo-text {
   font-family: "Caveat", cursive;
   font-weight: 700;
-  color: rgb(0, 0, 95);
+  color: var(--main-text-color);
   font-size: 25px;
 }

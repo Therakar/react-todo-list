@@ -1,4 +1,17 @@
 .sorting-container {
   height: 50px;
-  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-around;
+}
+
+select {
+  background-color: var(--select-bg-color);
+  color: inherit;
+  font-family: inherit;
+  border: none;
+  border-radius: 10rem;
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
 }

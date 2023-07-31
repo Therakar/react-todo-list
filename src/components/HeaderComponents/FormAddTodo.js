@@ -6,7 +6,11 @@ export default function FormAddTodo() {
     <form className="add-form">
       <h3>Let's add some to-dos 💪🏻</h3>
       <div>
-        <input type="text" placeholder="New activity..."></input>
+        <input
+          className="shadow"
+          type="text"
+          placeholder="New activity..."
+        ></input>
         <Button />
       </div>
     </form>

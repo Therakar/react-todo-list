@@ -12,5 +12,5 @@ h1 {
   font-family: "Fredericka the Great", cursive;
   font-size: 70px;
   text-align: center;
-  color: black;
+  color: var(--title-color);
 }
