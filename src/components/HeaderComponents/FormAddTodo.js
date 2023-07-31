@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../../Style/HeaderStyle/FormAddTodo.css";
 import Button from "../GenericComponents/Button";
 
-export default function FormAddTodo() {
+export default function FormAddTodo({ onAddItems }) {
   const [description, setDescription] = useState("");
 
   // this function will handle the submit of the new to-do
@@ -14,6 +14,9 @@ export default function FormAddTodo() {
     //creation of the new item
     const newItem = { description, completed: false, id: Date.now() };
     console.log(newItem);
+
+    //renders the new to-do
+    onAddItems(newItem);
 
     //reset
     setDescription("");

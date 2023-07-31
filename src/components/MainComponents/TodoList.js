@@ -1,35 +1,12 @@
 import "../../Style/MainStyle/TodoList.css";
 import Todo from "./Todo";
 
-export default function TodoList() {
+export default function TodoList({ items }) {
   return (
     <ul className="list">
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo /> <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo /> <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
-      <Todo />
+      {items.map((item) => (
+        <Todo item={item} key={item.id} />
+      ))}
     </ul>
   );
 }

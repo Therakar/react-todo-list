@@ -1,12 +1,10 @@
 import "../../Style/MainStyle/Todo.css";
 import "../../Style/Button.css";
 
-export default function Todo() {
+export default function Todo({ item }) {
   return (
     <li className="todo-item">
-      <p className="todo-text">
-        Todo Item to do to do do do dod odo asaaaa asas asas asasdas assadasd
-      </p>
+      <p className="todo-text">{item.description}</p>
 
       <div className="todo-buttons">
         <button className="green">Done</button>
