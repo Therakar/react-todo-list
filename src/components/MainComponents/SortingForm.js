@@ -1,6 +1,6 @@
 import "../../Style/MainStyle/SortingForm.css";
 
-export default function SortingForm({ onDeleteItem }) {
+export default function SortingForm({ onDeleteItem, onClearList }) {
   return (
     <div className="sorting-container">
       <select className="shadow">
@@ -8,7 +8,9 @@ export default function SortingForm({ onDeleteItem }) {
         <option value="description">Sort by name</option>
         <option value="completed">Sort by completion status</option>
       </select>
-      <button className="clear-btn">Clear List</button>
+      <button className="clear-btn" onClick={onClearList}>
+        Clear List
+      </button>
     </div>
   );
 }

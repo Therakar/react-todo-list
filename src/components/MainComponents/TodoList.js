@@ -2,7 +2,12 @@ import "../../Style/MainStyle/TodoList.css";
 import Todo from "./Todo";
 import SortingForm from "./SortingForm";
 
-export default function TodoList({ items, onToggleItem, onDeleteItem }) {
+export default function TodoList({
+  items,
+  onToggleItem,
+  onDeleteItem,
+  onClearList,
+}) {
   return (
     <div className="list">
       <ul>
@@ -16,7 +21,7 @@ export default function TodoList({ items, onToggleItem, onDeleteItem }) {
         ))}
       </ul>
       <div className="bottom-list">
-        <SortingForm />
+        <SortingForm onClearList={onClearList} />
       </div>
     </div>
   );
