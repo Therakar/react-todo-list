@@ -2,7 +2,7 @@ import "../../Style/MainStyle/Todo.css";
 import "../../Style/Button.css";
 import Button from "../GenericComponents/Button";
 
-export default function Todo({ item, onToggleItem }) {
+export default function Todo({ item, onToggleItem, onDeleteItem }) {
   return (
     <li className="todo-item">
       <p
@@ -21,7 +21,9 @@ export default function Todo({ item, onToggleItem }) {
         >
           {item.completed ? "Undone" : "Done"}
         </button>
-        <button className="red">Cancel</button>
+        <button className="red" onClick={() => onDeleteItem(item.id)}>
+          Cancel
+        </button>
       </div>
     </li>
   );

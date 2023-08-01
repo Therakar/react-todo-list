@@ -1,6 +1,6 @@
-import "../../Style/FooterStyle/SortingForm.css";
+import "../../Style/MainStyle/SortingForm.css";
 
-export default function SortingForm() {
+export default function SortingForm({ onDeleteItem }) {
   return (
     <div className="sorting-container">
       <select className="shadow">
