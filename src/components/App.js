@@ -12,11 +12,19 @@ export default function App() {
   function handleAddItems(item) {
     setItems((items) => [...items, item]);
   }
+
+  function handleToggleItem(id) {
+    setItems((items) =>
+      items.map((item) =>
+        item.id === id ? { ...item, completed: !item.completed } : item
+      )
+    );
+  }
   return (
     <div className="app">
       <div className="container">
         <Header onAddItems={handleAddItems} />
-        <TodoList items={items} />
+        <TodoList items={items} onToggleItem={handleToggleItem} />
         <Footer />
       </div>
     </div>

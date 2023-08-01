@@ -1,13 +1,26 @@
 import "../../Style/MainStyle/Todo.css";
 import "../../Style/Button.css";
+import Button from "../GenericComponents/Button";
 
-export default function Todo({ item }) {
+export default function Todo({ item, onToggleItem }) {
   return (
     <li className="todo-item">
-      <p className="todo-text">{item.description}</p>
+      <p
+        style={item.completed ? { textDecoration: "line-through" } : {}}
+        className="todo-text"
+      >
+        {item.description}
+      </p>
 
       <div className="todo-buttons">
-        <button className="green">Done</button>
+        <button
+          className={item.completed ? "yellow" : "green"}
+          onClick={() => {
+            onToggleItem(item.id);
+          }}
+        >
+          {item.completed ? "Undone" : "Done"}
+        </button>
         <button className="red">Cancel</button>
       </div>
     </li>

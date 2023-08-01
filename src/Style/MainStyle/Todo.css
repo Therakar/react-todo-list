@@ -28,3 +28,7 @@
   color: var(--main-text-color);
   font-size: 25px;
 }
+
+.completed {
+  text-decoration: line-through;
+}

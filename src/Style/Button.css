@@ -20,6 +20,10 @@
 .green {
   background-color: var(--done-btn-bg-color);
 }
+
+.yellow {
+  background-color: var(--undone-btn-bg-color);
+}
 /* CSS */
 button {
   text-transform: uppercase;
